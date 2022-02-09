@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -18,8 +19,12 @@ li {
   list-style-type: none;
 }
 
-h1, h2, h3, a, i{
-  font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h3,
+a,
+i {
+  font-family: "Roboto", sans-serif;
   color: #494949;
 }
 
@@ -30,8 +35,9 @@ h3 {
   margin: 0;
 }
 
-h4, p {
-  font-family: 'Roboto Slab', serif;
+h4,
+p {
+  font-family: "Roboto Slab", serif;
   color: #494949;
 }
 
@@ -54,7 +60,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  background: #E3E3E3;
+  background: #e3e3e3;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
@@ -75,7 +81,7 @@ header nav {
   font-weight: 600;
 }
 
-header nav ul li{
+header nav ul li {
   text-transform: uppercase;
   float: left;
   margin-left: 16px;
@@ -119,7 +125,7 @@ header nav ul li:hover {
 }
 
 #home a:hover {
-  transform: scale(2.0);
+  transform: scale(2);
   transition: all 300ms;
 }
 
@@ -204,51 +210,69 @@ header nav ul li:hover {
 }
 
 @keyframes html5 {
-   to {color: #E44D26;}
+  to {
+    color: #e44d26;
+  }
 }
 
 @keyframes css3 {
-   to {color: #0B82FB;}
+  to {
+    color: #0b82fb;
+  }
 }
 
 @keyframes js {
-   to {color: #F7E018;}
+  to {
+    color: #f7e018;
+  }
 }
 
 @keyframes react {
-   to {color: #00D8FF;}
+  to {
+    color: #00d8ff;
+  }
 }
 
 @keyframes java {
-   to {color: #3073B8;}
+  to {
+    color: #3073b8;
+  }
 }
 
 @keyframes sass {
-   to {color: #CD679A;}
+  to {
+    color: #cd679a;
+  }
 }
 
 @keyframes php {
-   to {color: #777CB5;}
+  to {
+    color: #777cb5;
+  }
 }
 
 @keyframes node {
-   to {color: #8CC84B;}
+  to {
+    color: #8cc84b;
+  }
 }
 
 @keyframes wordpress {
-   to {color: #0087BE;}
+  to {
+    color: #0087be;
+  }
 }
 
 #speech-bubble {
   color: white;
-	background: #494949;
-	border-radius: .4em;
+  background: #494949;
+  border-radius: 0.4em;
 }
 
 /* Work */
 
 #work {
-  background-color: #E1E1E1;
+  background-color: #e1e1e1;
 }
 
 #work .fa-github-alt {
@@ -257,10 +281,9 @@ header nav ul li:hover {
 
 #work .fa-github-alt:hover {
   color: #030104;
-  transform: scale(2.0);
+  transform: scale(2);
   transition: all 2000ms;
 }
-
 
 #projects {
   margin-top: 60px;
@@ -268,18 +291,18 @@ header nav ul li:hover {
 }
 
 #projects::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
 
 .card {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    margin: 0 0 20px 40px;;
-    width: 29%;
-    float: left;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 0 0 20px 40px;
+  width: 29%;
+  float: left;
 }
 
 .card hr {
@@ -287,7 +310,7 @@ header nav ul li:hover {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card div {
@@ -296,7 +319,6 @@ header nav ul li:hover {
 
 .card h4 {
   text-decoration: underline;
-  
 }
 
 .card img {
@@ -305,8 +327,9 @@ header nav ul li:hover {
 
 /* Contact */
 
-form input, textarea{
-  font-family: 'Roboto Slab', serif;
+form input,
+textarea {
+  font-family: "Roboto Slab", serif;
   font-size: 15px;
   margin-bottom: 10px;
   border-radius: 2px;
@@ -331,13 +354,13 @@ form textarea {
 }
 
 .button {
-  background-color: #428BCA;
+  background-color: #428bca;
   width: 100px;
   font-size: 20px;
 }
 
 .button:hover {
-  background-color: #D9534F;
+  background-color: #d9534f;
 }
 
 #contact #contactlink {
@@ -345,23 +368,23 @@ form textarea {
 }
 
 #contact #contactlink p {
-   font-size: 20px;
+  font-size: 20px;
 }
 
 #contact #contactlink div i {
-   font-size: 50px;
-   margin-left: 30px;
+  font-size: 50px;
+  margin-left: 30px;
 }
 
 #contactlink div .fa-linkedin:hover {
-  color: #0274B3;
-  transform: scale(2.0);
+  color: #0274b3;
+  transform: scale(2);
   transition: all 2000ms;
 }
 
 #contactlink div .fa-envelope:hover {
-  color: #F14336;
-  transform: scale(2.0);
+  color: #f14336;
+  transform: scale(2);
   transition: all 2000ms;
 }
 
@@ -418,16 +441,17 @@ footer p {
   }
 
   .card {
-      width: 60%;
-      float: none;
-      margin: 10px auto;
+    width: 60%;
+    float: none;
+    margin: 10px auto;
   }
 
-  .card img{
-      width: 100%;
+  .card img {
+    width: 100%;
   }
 
-  form input , form textarea {
+  form input,
+  form textarea {
     width: 60%;
   }
 }
@@ -435,8 +459,8 @@ footer p {
 /* Mobile */
 
 @media screen and (max-width: 480px) {
-  #logo a{
-     margin: 0 0 6px 0;
+  #logo a {
+    margin: 0 0 6px 0;
   }
 
   header nav {
@@ -450,7 +474,6 @@ footer p {
     width: 100%;
     cursor: pointer;
     text-align: right;
-    float: right;
     margin: -25px 30px 0 0;
   }
 
@@ -475,11 +498,11 @@ footer p {
     padding: 5px 0;
     margin: 0;
     font-size: 11px;
-    border-top: 1px solid #ddddd;
+    border-top: 1px solid #dddddd;
   }
 
   header nav ul li:hover {
-    background-color: #eeeee;
+    background-color: #eeeeed;
   }
 
   #home h1 {
@@ -511,16 +534,17 @@ footer p {
   }
 
   .card {
-      width: 90%;
-      float: none;
-      margin: 10px auto;
+    width: 90%;
+    float: none;
+    margin: 10px auto;
   }
 
-  .card img{
-      width: 100%;
+  .card img {
+    width: 100%;
   }
 
-  form input, form textarea {
+  form input,
+  form textarea {
     width: 70%;
   }
 
@@ -529,11 +553,10 @@ footer p {
   }
 
   #contact #contactlink p {
-     font-size: 15px;
+    font-size: 15px;
   }
 
   #contact #contactlink div i {
-     font-size: 30px;
+    font-size: 30px;
   }
-
 }
